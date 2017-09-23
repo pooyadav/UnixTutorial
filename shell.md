@@ -25,18 +25,20 @@ it will show the current shell
 ```
 in this example, we are using ```bash``` as the default shell.
 
-you can change it to a new shell.
+you can change it to a new shell, lets say ```sh```.
 
 ```
 terminal$ sh
 
 ```
-find what is the default shell when you start a terminal.
+next lets find what is the default shell when you start a terminal.
 
 ```
 terminal$ echo $SHELL
 ````
 this will give you default shell.
 
-
+```
+/bin/bash
+```
 
